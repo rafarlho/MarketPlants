@@ -1,7 +1,6 @@
 import React from "react";
 import TopNav from "../components/Navbar/TopNav";
 import Comments from "../components/Comment"
-import orchid from  "../images/plants/orchid.jpeg"
 import { useNavigate } from 'react-router-dom';
 import ShowPlants from "../components/ShowPlants";
 const PlantProfile = () => {
@@ -40,7 +39,7 @@ const PlantProfile = () => {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', width: '100%', margin: '0 auto' }}>
                     <div style={{ border: '2px solid green',padding: '20px', borderRadius: '10px', boxSizing: 'border-box', width: '30%',backgroundColor: 'rgba(107, 142, 35, 0.3)' ,height:'300px'}}>  
                         <center>
-                            <img src={parsedPlant.photo}  style={{maxWidth:'300px', maxHeight:'300px', width: 'auto', height:'auto' , objectFit: 'cover' }} />
+                        <img src={parsedPlant.photo} alt={parsedPlant.name} style={{ maxWidth: '300px', maxHeight: '300px', width: 'auto', height: 'auto', objectFit: 'cover' }} />
                         </center>
                     </div>
                     <div style={{ marginLeft:'10px',border: '2px solid green',padding: '20px', borderRadius: '10px', boxSizing: 'border-box', width: '80%',height:'300px' }}>   

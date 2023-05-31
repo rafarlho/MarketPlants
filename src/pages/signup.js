@@ -13,7 +13,7 @@ const SignUp = () => {
 
   const [repeatPassword, setRepeatPassword] = useState('');
   let [errorMessage, setErrorMessage] = useState('');
-  let [loggedIn ,setLoggedIn] = useState('')
+  let [loggedIn ] = useState('')
 
   function handleClick() {
     history('/login');

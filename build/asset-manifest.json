@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4210dcde.css",
+    "main.js": "/static/js/main.ee2a6052.js",
+    "static/media/plants_background.png": "/static/media/plants_background.61931414aced00f3ea7e.png",
+    "static/media/marketplants-logo.png": "/static/media/marketplants-logo.d304a90b353ffc743f01.png",
+    "static/media/logo.png": "/static/media/logo.085eaee608f662967b79.png",
+    "index.html": "/index.html",
+    "main.4210dcde.css.map": "/static/css/main.4210dcde.css.map",
+    "main.ee2a6052.js.map": "/static/js/main.ee2a6052.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4210dcde.css",
+    "static/js/main.ee2a6052.js"
+  ]
+}

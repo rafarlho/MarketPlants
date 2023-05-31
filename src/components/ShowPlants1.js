@@ -1,8 +1,6 @@
 import React from "react";
 import plant1 from "../images/plants/dplant1.png";
 import plant2 from "../images/plants/monstera.png";
-import plant3 from "../images/plants/pearlstrings.png";
-import plant4 from "../images/plants/image 5.png";
 import { useNavigate } from 'react-router-dom';
 
 

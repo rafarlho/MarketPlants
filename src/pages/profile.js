@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
 import TopNav from '../components/Navbar/TopNav';
-import pedro from "../images/1.jpg";
 import ShowPlants from '../components/ShowPlants';
 import Comment from '../components/Comment';
 import { useNavigate } from 'react-router-dom';
@@ -43,7 +42,7 @@ const Profile = () =>{
 
       })
     }
-    let { firstName, lastName, email, password} = loggedInUser
+    let { firstName, email} = loggedInUser
     return(
         <div className='full_div2'>
             <TopNav />

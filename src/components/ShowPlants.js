@@ -12,7 +12,7 @@ const ShowPlants = ({ filterPlantName, filterVendorName }) =>{
   const userData = localStorage.getItem('users')
   let users = [];
   let plants = [];
-  let cartPlants = []
+  
 
   users = JSON.parse(userData);
   let loggedInUser = users.find((user) => user.loggedIn === true);

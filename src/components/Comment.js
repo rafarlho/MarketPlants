@@ -11,7 +11,7 @@ const Comments = () =>{
       setNewComment('');
     }
 
-    const [rating, setRating] = useState(0);
+    
   
     //const handleRating = (value) => {
     //    setRating(value);

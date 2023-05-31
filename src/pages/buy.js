@@ -1,7 +1,6 @@
 import React from 'react';
 import TopNav from '../components/Navbar/TopNav';
-import pedro from "../images/1.jpg";
-import ShowPlants1 from '../components/ShowPlants1';
+
 import { useNavigate } from 'react-router-dom';
 
 const Buy = () =>{

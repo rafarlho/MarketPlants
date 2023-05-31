@@ -1,6 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
 import TopNav from '../components/Navbar/TopNav';
-import logo from "../images/MariaFloristaLogo.jpg";
 import ShowPlants from '../components/ShowPlants';
 import Comments from "../components/Comment"
 
@@ -23,10 +22,10 @@ const SellerProfile = () =>{
     console.log(trimmedVendor)
     let users = []     
     users = JSON.parse(userData); 
-    let sellerInfo = users.find((user) => user.email == trimmedVendor);
+    let sellerInfo = users.find((user) => user.email === trimmedVendor);
     console.log("aqui ha vendedor!!")
     console.log(sellerInfo)
-    let loggedInUser = users.find((user) => user.loggedIn == true);
+    let loggedInUser = users.find((user) => user.loggedIn === true);
     console.log(loggedInUser)
     function favouriteUser() {
         console.log(sellerInfo.favUsers)

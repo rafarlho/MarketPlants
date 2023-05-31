@@ -9,7 +9,7 @@ const Favourites = () => {
 
     const userData = localStorage.getItem('users')
     let users = [];
-    let plants = [];
+
     let favPlants = [];
     let favUsers = [];
     if(userData) {

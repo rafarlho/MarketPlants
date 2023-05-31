@@ -6,9 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const Main = () => {
 
 	const history = useNavigate();
-    function handleClick() {
-        history('/addplant');
-    }
+   
 	const [showSubcategoriesPlants, setShowSubcategoriesPlants] = useState(false);
   	const toggleSubcategoriesPlants = () => {
     	setShowSubcategoriesPlants(!showSubcategoriesPlants);

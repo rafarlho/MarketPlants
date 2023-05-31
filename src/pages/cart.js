@@ -5,21 +5,18 @@ import { useNavigate } from 'react-router-dom';
 const Cart1 = () => {
   const navigate = useNavigate();
 
-  function cart() {
-    navigate('/cart');
-  }
   const userData = localStorage.getItem('users');
   let users = [];
   let cartPlants = [];
   let totalPrice = 0
-  let boughtPlants = []
+
   let loggedInUser;
   if (userData) {
     users = JSON.parse(userData);
     const user = users.find((user) => user.loggedIn === true);
     loggedInUser = user;
     if (user) {
-        boughtPlants = user.boughtPlants
+
         cartPlants = user.cartPlants;
         console.log("added plant to cart" );
         console.log(user.cartPlants)

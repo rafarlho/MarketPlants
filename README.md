@@ -5,4 +5,4 @@ So we created MarketPlants, an online marketplace where amy user can buy or sell
 
 It is a React application, where the user date is stored using HTML Web Storage API, nd deployed on Netlify!
 
-Check it out if you would like to get some new plants c:
+Check it out if you would like to get some new plants https://marketplants.netlify.app/ c:

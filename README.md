@@ -1,5 +1,5 @@
 Welcome to MarketPlants!
-This project was developed for Sistems Analysis, wher the objective was to create a model business that could work in the real life.
+This project was developed for Sistems Analysis, where the objective was to create a model business that could work in the real life.
 
 So we created MarketPlants, an online marketplace where amy user can buy or sell plants and rate sellers or buyers.
 
